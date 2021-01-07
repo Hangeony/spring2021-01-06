@@ -14,7 +14,7 @@ import lombok.extern.log4j.Log4j;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
-@Log4j
+@Log4j//눈에 보이지 않지만 log라는 필드를 만들어줌.
 public class SampleTests {
 	
 	@Autowired
